@@ -55,6 +55,8 @@ This document summarize:
 ## Technical assumptions
 **Real-time previews:** all the previews (block and a whole campaign) could be rendered on-the-fly everywhere using iframes.
 
+**Row based campaigns:** all campaigns could be rendered as vertically arranged blocks.
+
 **CSS inline:** inlining CSS could be safely managed by a 3rd party library such as [inline-css](https://github.com/jonkemp/inline-css). It also keeps the final email clean of the unnecessary classes but preserves classes under media queries. It could remove the classes to spare some space - but again, it preserves the ones related to media queries.
 
 **SASS:** we could compile SASS on-the-fly for the previews in the client side.
