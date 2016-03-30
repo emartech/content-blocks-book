@@ -1,0 +1,34 @@
+/* VARIABLES */
+$width: 100px;
+$font-color: #aaa;
+
+
+/* EMARSYS FRAMEWORK */
+body {
+  width: $width;
+  color: $font-color;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse !important;
+
+  &.container {
+    margin-top: 10px;
+  }
+}
+
+tr, td {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse !important;
+}
+
+
+/* CUSTOM CLASSES */
+.small-block-text {
+  font-size: 10px;
+  color: lighten($font-color, .1);
+}
+
