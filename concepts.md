@@ -31,9 +31,9 @@ This document summarize:
 
 **Auto inline CSS classes:** automatically inline all classes provided in `<style>` tags into the HTML tags. These CSS classes could be in the base layout.
 
-**Encourage CSS classes:** CSS classes can be added to the block HTML tags and the class definitions can be added in template level *[?and in block level?]*. The styles will be automatically inlined into the HTML tags.
+**Encourage CSS classes:** CSS classes can be added to the block HTML tags and the class definitions can be added in template level *[?and in block level?]*. The styles should be automatically inlined into the HTML tags.
 
-**Use SASS:** instead of CSS we accept SASS code - which enables variables and simplify creating complex styles. On the email/preview generation process all SASS code (from base layout, custom SASS, block level styling?) will be concatenated and then compiled - so a SASS variable could be used in all of the styles!
+**Use SASS:** instead of CSS we accept SASS code - which enables variables and simplify creating complex styles. On the email/preview generation process all SASS code (from base layout, custom SASS, block level styling?) will be concatenated and then compiled - so a SASS variable could be used in all of the styles! The styles should be automatically inlined into the HTML tags.
 
 **High HTML:** provide high-level HTML tags to simplify the creation of complex and responsive layouts. These tags mean automatically added styles as well.
 
@@ -42,6 +42,7 @@ This document summarize:
   - a base layout with responsive email support by design
   - pre-defined variables to modify the base attributes
   - a grid system
+  - support of hiding images, content, etc. on mobile or desktop
   - high-level HTML tags to simplify creating complex but mobile friendly layouts
   - support and "always" up-to-date email techniques
   - a good documentation and learning resources
