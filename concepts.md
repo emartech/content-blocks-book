@@ -1,5 +1,6 @@
 # Concept book
 This document summarize:
+
 - the main concepts which we agreed on to follow
 - concepts which are under consideration so it could be moved up to the *Base concepts* in the future but it has a chance to be dropped as well
 - the technical assumptions we used to define the concepts. If an assumption seems to be invalidated then we have to check the validity of the related concepts.
@@ -10,6 +11,7 @@ This document summarize:
 **New Campaign type:** the new editor comes with a new campaign type: *Block-based email campaigns*.
 
 **Content type:** a new domain property is introduced in the Campaigns: the `content_type` with one of the following values per campaign:
+
   - `html`, as custom HTML campaigns editable by Content Editor
   - `template`, as VCMS campaigns
   - `block`, as higher level HTML campaigns editable by Content Blocks Editor
@@ -21,6 +23,7 @@ This document summarize:
 **Blocks are rows:** an editable layout part of a campaign/template is a row - which means it could be organized vertically but never horizontally. It implicates that **the content of an email is a set of blocks in one, vertical dimension** (simply an array).
 
 **Declarative editables:** the editable fields for Claire is defined in the block's HTML source by Bob. This fields could be defined as HTML tags or attributes with their local settings. The following editables are available:
+
   - *simple text:* plain text without any formatting. Used to force Claire to use the predefined the style of a title, etc.
   - *rich text:* customizable text with a WYSIWYG editor
   - *image:* the source could be set from the MediaDB or with a simple url. It supports mobile images by design.
@@ -38,6 +41,7 @@ This document summarize:
 **High HTML:** provide high-level HTML tags to simplify the creation of complex and responsive layouts. These tags mean automatically added styles as well.
 
 **Foundation:** use [ZURB's Foundation for Emails 2](http://foundation.zurb.com/emails.html) framework to get:
+
   - a well-defined and tested base layout
   - a base layout with responsive email support by design
   - pre-defined variables to modify the base attributes
