@@ -44,7 +44,9 @@ There are two personas according to the two important use-cases of the editor:
 
 **Emarsys blocks:** there are basic Emarsys blocks which are available for all users. These are protected and the users couldn't change them but they can fork to create new blocks.
  
-**Block versions:** a block could have different versions, eg. with different HTML and styles.
+**Block variations:** a block could have different variations, eg. with different HTML and styles.
+
+**Permission control:** the customer could set the permissions for creating templates and/or campaigns per user.
 
 
 ## Concepts under consideration
@@ -66,8 +68,6 @@ There are two personas according to the two important use-cases of the editor:
   - high-level HTML tags to simplify creating complex but mobile friendly layouts
   - support and "always" up-to-date email techniques
   - a good documentation and learning resources
-
-**Claire uses HTML:** more flexibility for Claire if she could code HTML than she can easily change the source of a block.  It could be important if Claire can't customize the campaign enough to her needs using the tools we've provided.
 
 
 ## Technical assumptions
